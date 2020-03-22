@@ -7,7 +7,7 @@
 - [Intro](#intro)
 - [Installation](#installation)
 - [Instructions](#instructions)
-- [Run CRUD Restaurants APP](#run-and-use-crud-restaurants)
+- [Run CRUD Restaurants APP](#run-and-use-crud-restaurant)
 
 
 ## Intro
