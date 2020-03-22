@@ -36,14 +36,7 @@ Vagrant is the software that configures the VM and lets you share files between 
 
 From your terminal, inside the **vagrant** subdirectory, run the command `vagrant up`. This will cause Vagrant to download the Linux operating system and install it. This may take quite a while (many minutes) depending on how fast your Internet connection is.
 
-![vagrant-up-start](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488603_screen-shot-2016-12-07-at-13.57.50/screen-shot-2016-12-07-at-13.57.50.png)
-
-_Starting the Ubuntu Linux installation with `vagrant up`._
-_This screenshot shows just the beginning of many, many pages of output in a lot of colors._
-
 When `vagrant up` is finished running, you will get your shell prompt back. At this point, you can run `vagrant ssh` to log in to your newly installed Linux VM!
-
-![linux-vm-login](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488962_screen-shot-2016-12-07-at-14.12.29/screen-shot-2016-12-07-at-14.12.29.png)
 
 _Logging into the Linux VM with `vagrant ssh`._
 
@@ -73,4 +66,15 @@ Because it's downloading a whole Linux operating system from the Internet.
 
 
 ## Run and use CRUD Restaurant
+
+Go to Vagrant Directory /vagrant. Then run:
+#### `vagrant up` 
+#### `vagrant ssh`
+#### `cd /vagrant`
+#### `cd restaurants`
+#### `python webserver.py`
+
+On your Web browser go on http://localhost:8080/restaurants
+
+
 
